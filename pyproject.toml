@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "make-gpt"
+version = "0.1.0"
+description = ""
+authors = ["SimTet <simon.tetzner@googlemail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.3.1"
+transformers = "^4.41.2"
+numpy = "^2.0.0"
+plotly = "^5.22.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+matplotlib = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
